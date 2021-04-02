@@ -19,13 +19,11 @@ export const Profile = styled.div`
 `;
 
 export const Welcome = styled.h3`
-  
   color: ${props => props.theme.colors.white};
   background-color: ${props => props.theme.colors.secondary};
 `;
 
 export const UserName = styled.span`
-  
   color: ${props => props.theme.colors.white};
   background-color: ${props => props.theme.colors.secondary};
 `;
