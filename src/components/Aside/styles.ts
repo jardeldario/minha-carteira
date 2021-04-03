@@ -11,6 +11,7 @@ export const Container = styled.div`
 
 export const Header = styled.header`
   height: 70px;
+  
   display: flex;
   align-items: center;
 `;
