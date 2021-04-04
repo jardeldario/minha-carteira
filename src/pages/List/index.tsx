@@ -2,8 +2,9 @@ import React from 'react';
 
 import ContentHeader from '../../components/ContentHeader';
 import SelectInput from '../../components/SelectInput';
+import HistoryFinanceCard from '../../components/HistoryFinanceCard';
 
-import { Container } from './styles';
+import { Container, Content } from './styles';
 
 const List: React.FC = () => {
 
@@ -34,6 +35,79 @@ const List: React.FC = () => {
                 <SelectInput options={months}/>
                 <SelectInput options={years}/>
             </ContentHeader>
+
+            <Content>
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#e44c4e"
+                    title="Conta de Luz"
+                    subtitle="27/08/2020"
+                    amount="R$ 234,89"
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#e44c4e"
+                    title="Conta de Luz"
+                    subtitle="27/08/2020"
+                    amount="R$ 234,89"
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#e44c4e"
+                    title="Conta de Luz"
+                    subtitle="27/08/2020"
+                    amount="R$ 234,89"
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#e44c4e"
+                    title="Conta de Luz"
+                    subtitle="27/08/2020"
+                    amount="R$ 234,89"
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#e44c4e"
+                    title="Conta de Luz"
+                    subtitle="27/08/2020"
+                    amount="R$ 234,89"
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#e44c4e"
+                    title="Conta de Luz"
+                    subtitle="27/08/2020"
+                    amount="R$ 234,89"
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#e44c4e"
+                    title="Conta de Luz"
+                    subtitle="27/08/2020"
+                    amount="R$ 234,89"
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#e44c4e"
+                    title="Conta de Luz"
+                    subtitle="27/08/2020"
+                    amount="R$ 234,89"
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#e44c4e"
+                    title="Conta de Luz"
+                    subtitle="27/08/2020"
+                    amount="R$ 234,89"
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#e44c4e"
+                    title="Conta de Luz"
+                    subtitle="27/08/2020"
+                    amount="R$ 234,89"
+                />
+            </Content>
         </Container>
     );
 }
